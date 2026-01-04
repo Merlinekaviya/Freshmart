@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dairy Products</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h2 class="page-title">Dairy Products 🥛</h2>
+
+  <!-- ✅ Cart Button (ADDED ONLY) -->
+  <div style="position:absolute; top:20px; right:20px;">
+   <button class="cart-btn" onclick="openCart()">🛒 Cart (<span id="cartCount">0</span>)</button>
+  </div>
+
+  <div class="product-container">
+
+    <div class="product-card">
+      <img src="image/milk image.jpg" alt="Milk">
+      <h3>Milk</h3>
+      <p>₹50 / litre</p>
+      <button onclick="addToCart('Milk',90)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="image/curd.jpg" alt="Curd">
+      <h3>Curd</h3>
+      <p>₹40 / pack</p>
+      <button onclick="addToCart('Curd',120)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="image/ghee.jpg" alt="Cheese">
+      <h3>Cheese</h3>
+      <p>₹120 / pack</p>
+      <button onclick="addToCart('Ghee',40)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="image/butter.avif" alt="Butter">
+      <h3>Butter</h3>
+      <p>₹90 / pack</p>
+      <button onclick="addToCart('Butter',50)">Add to Cart</button>
+    </div>
+
+  </div>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>

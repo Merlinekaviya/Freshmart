@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FreshMart Categories</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ✅ NAVBAR (ADDED) -->
+  <div class="navbar">
+    <h1>🥬 FreshMart</h1>
+    <button class="cart-btn" onclick="openCart()">🛒 Cart (<span id="cartCount">0</span>)</button>
+  </div>
+
+  <!-- ✅ PAGE CONTENT WRAPPER (ADDED) -->
+  <div class="container">
+
+    <h2 id="greeting"></h2>
+
+    <div class="card-container">
+
+      <div class="category-card">
+        <img src="image/grocery.png" alt="Dairy">
+        <h3>Dairy Products</h3>
+        <p>Upto 45% Off</p>
+        <button onclick="goToCategory('dairy.html')">Shop Now</button>
+      </div>
+
+      <div class="category-card">
+        <img src="image/veg.webp" alt="Vegetables and Fruits">
+        <h3>Fresh Vegetables and Fruits</h3>
+        <p>Upto 45% Off</p>
+        <button onclick="goToCategory('vegetables.html')">Shop Now</button>
+      </div>
+
+      <div class="category-card">
+        <img src="image/meat.jpg" alt="Meat">
+        <h3>Meat</h3>
+        <p>Upto 45% Off</p>
+        <button onclick="goToCategory('meat.html')">Shop Now</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fresh Meat</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 🛒 Cart Button -->
+  <div style="position:absolute; top:20px; right:20px;">
+    <button class="cart-btn" onclick="openCart()">🛒 Cart (<span id="cartCount">0</span>)</button>
+  </div>
+
+  <h2 class="page-title">Fresh Meat 🥩</h2>
+
+  <div class="product-container">
+
+    <div class="product-card">
+      <img src="image/hen.jpg" alt="Chicken">
+      <h3>Chicken</h3>
+      <p>₹220 / kg</p>
+      <button onclick="addToCart('Chicken',300)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="image/mutton.jpg" alt="Mutton">
+      <h3>Mutton</h3>
+      <p>₹650 / kg</p>
+      <button onclick="addToCart('Mutton',650)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="image/beef.jpg" alt="Fish">
+      <h3>Fish</h3>
+      <p>₹300 / kg</p>
+      <button onclick="addToCart('Beef',220)">Add to Cart</button>
+    </div>
+
+  </div>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>

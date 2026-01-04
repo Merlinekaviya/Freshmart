@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ✅ NAVBAR -->
+  <div class="navbar">
+    <h1>🛒 Your Cart</h1>
+    <button class="cart-btn" onclick="openCart()">Cart</button>
+  </div>
+
+  <div class="container">
+
+    <div class="cart-box">
+      <div id="cartItems"></div>
+
+      <h3 class="cart-total" id="totalPrice">Total: ₹0</h3>
+
+      <div style="text-align:center; margin-top:20px;">
+        <button onclick="goToPayment()">Proceed to Payment</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
