@@ -17,11 +17,6 @@ FreshMart is a frontend e-commerce grocery website built using HTML, CSS, and Ja
 - CSS
 - JavaScript
 
-## 📸 Screenshots
-(Add screenshots here)
-
-## 🔗 Live Demo
-(Optional – GitHub Pages)
 
 ## 👩‍💻 Author
 Merline Kaviya
